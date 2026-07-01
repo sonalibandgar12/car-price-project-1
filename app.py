@@ -6,7 +6,7 @@ import pandas as pd
 
 st.title("Car Price Prediction App")
 
-pipe = pkl.load(open("pipe.pickle","rb"))
+pipe = pkl.load(open("pipe.pkl","rb"))
 df = pd.read_csv("final_data.csv")
 
 companies = sorted(df["company"].unique())
