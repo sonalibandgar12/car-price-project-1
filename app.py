@@ -1,7 +1,7 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
-import pickle
+import pickle as pkl
 st.title("Car Price Prediction App")
 
 pipe = pickle.load(open("pipe.pkl", "rb+"))
