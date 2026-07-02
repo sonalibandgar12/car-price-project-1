@@ -1,4 +1,0 @@
-Numpy: 2.4.6
-Pandas: 3.0.3
-Scikit-learn: 1.9.0
-streamlit: 1.58.0
